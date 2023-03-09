@@ -1,0 +1,263 @@
+/* start glubal rules  */
+* {
+  -webkit-box-sizing: porder box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* goole font */
+body {
+  font-family: "Lato", sans-serif;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* end glubal rules  */
+/* start nav  */
+.nav {
+  background-color: silver;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav .container ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav .container ul li {
+  padding: 20px 0; 
+  width: 25%;
+  text-align: center;
+}
+
+.nav .container ul li {
+  width: 25%;
+  text-align: center;
+}
+.nav .container ul li:hover {
+  background-color: #8e8e8e;
+}
+
+.nav .container ul li a{
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: aliceblue;
+  cursor: pointer;
+}
+/* end nav  */
+/* start header  */
+.header .container img {
+  margin-top: 40px;
+  border-bottom: 45px solid rgb(1, 54, 56);
+}
+/* end header  */
+/* start offer  */
+.offer .heading {
+  text-align: center;
+}
+.offer h2 {
+  text-align: center;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 10px solid rgb(1, 54, 56);
+}
+.offer .container .alloffer {
+  display: flex;
+}
+.offer .container .design {
+  width: 300px;
+  padding: 16px;
+  background-color: #f1f1f1;
+}
+.offer .container .barnding {
+  width: 300px;
+  padding: 16px;
+  background-color: #9e9e9e;
+}
+.offer .container .consul {
+  width: 300px;
+  padding: 16px;
+  color: #fff;
+  background-color: #616161;
+}
+.offer .container .promises {
+  width: 300px;
+  padding: 16px;
+  color: #fff;
+  background-color: #000;
+}
+.alloffer h3 {
+  margin-bottom: 15px;
+}
+/* end offer  */
+/* start priing  */
+.pricing h3 {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+.pricing p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.pricing .container .plans {
+  display: flex;
+  margin-bottom: 50px;
+  /* justify-content: space-between; */
+}
+.pricing .container .plans div {
+  flex: 1;
+  padding: 10px;
+}
+
+.pricing .container .plans ul {
+  border: 1px solid #ddd;
+  list-style: none;
+  /* height: 401px; */
+  text-align: center;
+}
+.pricing .container .plans ul li {
+  padding: 25px 15px;
+  font-size: large;
+  border-bottom: 1px solid #ddd;
+}
+.pricing .container .plans ul button {
+  padding: 11px 30px;
+  background-color: #4caf50;
+  color: #fff;
+}
+.pricing .container .plans ul button:hover {
+  background-color: #ddd;
+  color: black;
+  cursor: pointer;
+}
+/* end priing  */
+/* start  we are  */
+.weare h2 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  border-bottom: 10px solid rgb(1, 54, 56);
+}
+.allweare {
+  display: flex;
+  margin-bottom: 60px;
+}
+.allweare img {
+  width: 100%;
+}
+.allweare h5 {
+  padding-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: larger;
+}
+.allweare h6 {
+  padding-left: 15px;
+  margin-bottom: 10px;
+  font-size: smaller;
+  color: #8e8e8e;
+}
+.allweare p {
+  line-height: 1.5;
+  padding-left: 15px;
+}
+.allweare button {
+  background-color: #f1f1f1;
+  width: 84%;
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: 14px;
+  border: aliceblue;
+}
+.allweare button:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+/* end  we are  */
+/* start contact */
+.contact h2 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 10px solid rgb(1, 54, 56);
+}
+.contactus {
+  display: grid;
+  margin-bottom: 40px
+}
+.contactus input {
+  margin-bottom: 15px;
+  padding: 8px;
+}
+.contactus button {
+  background-color: black;
+  color: white;
+  padding: 8px;
+}
+.contactus button:hover {
+  background-color: #f1f1f1;
+  color: black;
+  cursor: pointer;
+}
+/* end contact */
+ /* start footer  */
+.footer {
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 40px;
+}
+.footer h4 {
+  margin-bottom: 30px;
+  font-size: x-large;
+}
+.footer a {
+  padding: 8px 16px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+.footer a:hover{
+  background-color: #b4b1b1;
+  color: #000;
+  cursor: pointer;
+}
+.footer a i {
+  margin-right: 10px;
+}
+.footer .icon {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: xx-large;
+  cursor: pointer;
+}
+.footer p {
+  margin-bottom: 50px;
+}
+ /* end footer  */
